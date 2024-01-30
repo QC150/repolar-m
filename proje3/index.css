@@ -1,0 +1,92 @@
+
+
+html,body{
+    height: 100%;
+    font-size: 1rem;
+    font-size: 16px;
+    font-family:"Lato" , sans-serif;
+    color: #666666;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background--image1{
+    background-image: url(./img/bg1.jpg);
+    height: 100%;
+}
+.backgrounf--image2{
+    background-image: url(./img/bg2.jpg);
+    height: 80%;
+}
+.bacground--image3{
+    background-image: url(./img/bg3.jpg);
+    height: 80%;
+}
+.background--image4{
+    background-image: url(./img/bg4.jpg);
+    height: 80%;
+}
+
+.background--image1,
+.backgrounf--image2,
+.bacground--image3,
+.background--image4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    /* !!paralax için ufak dokunuş buraya eklencek */
+    background-attachment: fixed;
+}
+
+.heading-container{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.heading-container__heading{
+background-color: black;
+
+color: white;
+padding: 2rem;
+border-top-left-radius: 2rem;
+border-bottom-right-radius: 2rem;
+outline: 0.5rem inset purple;
+outline-offset: 1rem;
+}
+
+.section{
+    text-align: center;
+    padding: 3rem 5rem;
+    line-height: 1.8rem;
+}
+.section-light{
+     background-color: #f1f1f1;
+}
+.section-dark{
+    background-color: #282E34;
+    color: #ddd;
+}
+/* !! hocam bacgroun image 2 de display değerlerini almadı diye hataya baktınız sonra onun başka bir taşııyıcısı olduğunu gördünüz ama bacground image 1 de de başka bir taşıyıcı vardı oysa onda display özellikleri oldu */
+.heading-container{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
+.heading-container__text{
+    background-color: black;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 0.7rem 0;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.2rem;
+    text-transform: capitalize;
+}
+
+

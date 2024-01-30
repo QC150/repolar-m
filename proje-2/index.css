@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Instrument+Serif&family=Rubik+Broken+Fax&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+
+
+    background-image: linear-gradient(90deg, rgb(232, 209, 233), rgb(7, 94, 118))
+}
+h1{
+    /* margin: 60px 30% 0px; */
+    /* margin-top: 60px; 
+    margin-left: 50%; */
+    font-family: 'Indie Flower', cursive;
+font-family: 'Rubik Broken Fax', 
+system-ui;
+color: rgba(229, 242, 243, 0.819);
+text-shadow: 1px 5px rgb(24, 98, 96);
+font-size: 7vh;
+text-align: center;
+
+}
+
+
+.dewops{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+    
+}
+.dewops:hover{
+    width: 270px;
+    height: 270px;
+}
+
+.box{
+    border: 3px solid a;
+    border-radius: 10px;
+    width: 90vw;
+    height: 300px; 
+    margin-left: 40px;
+    margin-right: 40px; 
+    margin-top: 20px;
+    box-shadow: 4px 3px rgba(113, 108, 108, 0.501);
+    background-image: linear-gradient(90deg, rgb(32, 116, 128), rgb(149, 204, 221));
+
+}
+.box:hover{
+    width: 95vw;
+    height: 320px;
+}
+
+p{
+    margin-top: 10px;
+    
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+  padding-left: 330px;
+  text-align: justify;
+       
+}
+.bos{
+    clear: both;
+}
+.baslık1{
+    
+    padding-left: 330px;
+padding-top: 30px;
+    margin-top:40px;
+    margin left:20px;
+ 
+    font-family: 'Indie Flower', cursive;
+font-family: 'Instrument Serif', serif;
+/* font-family: 'Rubik Broken Fax', system-ui; */
+
+}
+
+.link1{
+    text-decoration: none;
+    margin-top: 400%;
+    border: 2px solid #987b2bcb;
+    padding: 7px;
+  margin-left: 80%;
+ color: rgb(168, 119, 46);
+ border-radius: 8px;
+ background-color: blanchedalmond;
+}
+.link1:hover{
+    background-color: rgba(205, 82, 227, 0.223);
+    color: rgb(70, 68, 66);
+}
+
+.link2{
+    text-decoration: none;
+    color: rgb(224, 51, 213);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* ????? kutuların rengi dışarıyla aynı oluyor */
+/* ????? lern more içeri alamıyorum */
+/* ?????resimler nasıl dışarı çıkacak */
