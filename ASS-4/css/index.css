@@ -6,14 +6,16 @@
 }
 
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
-    margin: 5rem  ;
+    margin: 5rem auto ;
     max-width: 1200px;
     flex-wrap: wrap;
     border-radius: 50px;
     box-shadow: var(--shadow-dark);
+    padding: 20px;
     
+
 
 
 }
@@ -108,7 +110,7 @@ font-family: var(--ff-pt);
 
 .tasıyıcı{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     text-decoration: none;
 }
 .tasıyıcı a{
@@ -152,7 +154,8 @@ align-items: baseline;
 .par2 .original-amount{
     font-size:2rem;
     display: inline-block;
-    margin-right: 4px;
+    margin-right: -100px;
+    
     
 }    
 
