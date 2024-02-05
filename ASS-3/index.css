@@ -90,8 +90,8 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
-
+    /* border: 2px solid red; */
+    border-bottom: 1px solid black;
 }
 .catagory{
     /* border: 2px solid red; */
@@ -103,14 +103,15 @@ main{
 .products{
     width: 20rem;
     height: 20rem;
-    background-color: #D9D9D9;
+   
     margin: 1rem;
     box-shadow: 2px 2px 20px black;
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
-border: solid 2px red;
+/* border: solid 2px red; */
     text-align: center;
+  
 
 
 }
@@ -118,35 +119,51 @@ border: solid 2px red;
     width: 90%;
     height: 90%;
     margin-top: 20px;
+    box-shadow: 5px 5px 10px black;
 
   
 
 }
-.products p{
-    position: absolute;
-    top:0;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
 
+.products :hover{
+    width: 22rem;
+    height: 22rem;
+} 
 
-    
-}
 
 footer{
-    text-align: center;
+    
+    
+    /* width: 200px; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffc868c8;
+    
     font-size: 16px;
 }
 .products h5{
     position: absolute;
-    bottom: 0;
-    left: 7rem;
+    top: 8rem;
+    /* left: 6rem;  */
+    /* transition: opacity 3s ease-in-out; */
     opacity: 0;
+   font-size: 2rem;
+   letter-spacing: 5px;
+   color: azure;
+   border: 2px solid red;
+  
    
 }
-.products p:hover{
+.products h5:hover{
     opacity: 1;
-    transition: opacity 1s ease-in;
-    color: red;
-
-    background-color: rgba(127, 255, 212, 0.377);
+    color: rgb(243, 248, 249);
+    display: flex;
+    margin-left: 60px;
+    /* transition: opacity 3s ease-in; */
+    height: 100%;
+    width: 100%;
+    
 }
+

@@ -1,46 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>ASS-2</title>
-   
-</head>
-<body>
-<div class="container">
-    <header>
-       <div class="baslik">
-        <h1>AYBÜKE DEMİR</h1>
-       </div>
-      
-       <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Projects</a>
-      <a href="">Contact</a>
-       </nav> 
-   
-       
-    </header>
-    <article>
-        <p class="par1">
-            Hi there 🤷 I am Anthony Harold.I have a great passion for software
-            development..
-        </p>
-    </article>
-    <main>
-        <div class="galariy">
-            <h3>My Projects</h3>
-            <div class="img">
-                <img src="./img/cup-of-coffee-1280537_1280 (1).jpg" alt="">
-                <img src="./img/desk-593327_1280.jpg" alt="">
-                <img src="./img/student-849825_1280.jpg" alt="">
-                <img src="https://cdn.pixabay.com/photo/2024/01/10/16/13/drone-8499903_1280.jpg" alt="">
-            </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="baslik">
+          <h1>AYBÜKE DEMİR</h1>
         </div>
-    </main>
-    <footer></footer>
-</div>
-</body>
+
+        <nav class="link">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Projects</a>
+          <a href="">Contact</a>
+        </nav>
+      </header>
+      <article>
+        <p class="par1">
+          Hi there 🤷 I am Anthony Harold.I have a great passion for software
+          development..
+        </p>
+      </article>
+      <main>
+        <div class="galariy">
+          <h3>My Projects</h3>
+          <div class="img">
+            <img src="./img/cup-of-coffee-1280537_1280 (1).jpg" alt="" />
+            <img src="./img/desk-593327_1280.jpg" alt="" />
+            <img src="./img/student-849825_1280.jpg" alt="" />
+            <img
+              src="https://cdn.pixabay.com/photo/2024/01/11/09/50/village-8501168_1280.jpg"
+              alt=""
+            />
+            <img
+              src="https://cdn.pixabay.com/photo/2023/11/29/10/32/mountains-8419249_1280.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="contact">
+          <h3>Contact Me</h3>
+        </div>
+        <div class="tasıyıcı">
+          <nav class="sosyal-medya">
+            <a href=""><i class="fa-brands fa-github"></i>Githup</a>
+            <a href=""><i class="fa-brands fa-instagram"></i>İnstagram</a>
+            <a href=""><i class="fa-brands fa-twitter"></i>Twitter</a>
+            <a href=""><i class="fa-brands fa-linkedin"></i>Linkeden</a>
+          </nav>
+        </div>
+        <div class="clas">Send Message</div>
+        <form action="" class="kutu">
+          <label for="name"></label>
+          <input type="text" id="name" placeholder="Username"  class="label"/>
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="Email" class="label"/>
+          <label for="yorum"></label>
+          <textarea
+            name="yorum"
+            id="yorum"
+            cols="30"
+            rows="10"
+            placeholder="Your message"
+          ></textarea>
+          <div class="i"> 
+          <input type="submit" value="SEND" class="mesaj"/>
+          
+            <i class="fa-solid fa-droplet"></i>
+        </div>
+        </form>
+        <div class="fixed">
+          <p>TOP |</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
