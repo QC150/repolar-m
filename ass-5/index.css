@@ -354,4 +354,15 @@ body {
   @media screen and (max-width: 400px) {
    
   }
+  @media screen and (max-width: 906px) {
+    .tablo {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .tablo p:nth-child(-n+3) {
+      order: -1; /* İlk üç öğeyi yukarıda tutar */
+    }
+  }
+  
   
