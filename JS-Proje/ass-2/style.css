@@ -1,0 +1,20 @@
+
+.red {
+    color: rgb(15, 176, 176);
+    background-color: rgb(146, 203, 175);
+}
+
+.center {
+    text-align: center;
+}
+.colorDiv {
+    border: 2px solid rgb(252, 235, 235); /* İstenilen border rengi ve kalınlığı */
+    border-radius: 10px; /* İstenilen border yuvarlaklığı */
+    margin-top: 0; /* Yukarıya yapıştırmak için margin'ı sıfırlıyoruz */
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
