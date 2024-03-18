@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Press Start 2P";
+    color: white;
+    background-color:tomato;
+    height: 100vh;
+  }
+
+header{
+    /* border: 2px solid red; */
+    height: 300px;
+    position: relative;
+
+}
+
+h1{
+    position: absolute;
+/* border: 2px solid red; */
+width: 100%;
+    text-align: center;
+    top: 50%;
+}
+
+
+.between {
+    text-align: right;
+    margin-top:20px;
+  
+  }
+ .number{
+    /* border: 2px solid red; */
+    width: 70px;
+    height: 50px;
+    position: absolute;
+   bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #eee;
+    color: #333;
+    font-size: 60px;
+ }
+ .btn{
+    margin-top: 15px;
+    margin-left: 15px;
+    border: none;
+    font-family: inherit;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #eee;
+    text-align: center;
+
+ }
+
+ main{
+    height:50% ;
+    color: #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ }
+ .left{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 400px;
+ }
+ .guess {
+    background: none;
+    border: 5px solid #eee;
+    /* parent ın font-family sini kalıtımsal olarak al, aynısını kullan */
+    font-family: inherit;
+    color: inherit;
+    font-size: 40px;
+    text-align: center;
+    width: 150px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .msg {
+    margin-bottom: 150px;
+  }
+  .score {
+    margin-bottom: 40px;
+  }
